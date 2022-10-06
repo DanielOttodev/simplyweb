@@ -10,6 +10,7 @@ url("../../assets/fonts/flaticon.svg?5608294b7ffb19c8707c457417f0b48c#flaticon")
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
     font-family: flaticon !important;
     font-style: normal;
+    font-display:swap;
     font-weight: normal !important;
     font-variant: normal;
     text-transform: none;
