@@ -9,7 +9,7 @@
             submitMSG(false, "Did you fill in the form properly?");
         } 
         else {
-            event.preventDefault();
+           // event.preventDefault();
             submitForm();
         }
     });
