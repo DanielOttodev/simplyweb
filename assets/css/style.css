@@ -68,6 +68,8 @@ Default CSS
   --paragraph-color: #777888;
   --font-size: 16px;
   --transition: .6s;
+
+
 }
 
 body {
@@ -147,6 +149,7 @@ img {
   color: var(--black-color);
   font-family: var(--heading-font-family);
   font-weight: bold;
+  font-display:swap
 }
 
 .h1:last-child, .h2:last-child, .h3:last-child, .h4:last-child, .h5:last-child, .h6:last-child, h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child {
@@ -1229,6 +1232,7 @@ About Area CSS
   width: 150px;
   background: var(--gradient-color);
   font-family: var(--heading-font-family);
+  font-display:swap;
   text-align: center;
   border-radius: 50%;
   position: absolute;
@@ -1315,6 +1319,8 @@ About Area CSS
 
 .about-fun-fact .funfact-box .odometer {
   font-family: var(--heading-font-family);
+  font-display:swap;
+
 }
 
 .about-fun-fact .funfact-box:hover {
@@ -1883,6 +1889,8 @@ Funfact Area CSS
 
 .single-funfact-card .odometer {
   font-family: var(--heading-font-family);
+  font-display:swap;
+
 }
 
 .single-funfact-card.border-none::before {
@@ -2526,6 +2534,8 @@ Appointment Area CSS
   content: "\f1ae";
   font-family: 'remixicon';
   font-size: 20px;
+  font-display:swap;
+
 }
 
 .appointment-accordion .accordion-item .accordion-button.collapsed::before {
@@ -2676,6 +2686,8 @@ Appointment Area CSS
   border-width: unset;
   color: var(--paragraph-color);
   font-family: "remixicon";
+  font-display:swap;
+
 }
 
 .appointment-form-wrap .appointment-form .form-group .selectize-input > * {
@@ -2748,6 +2760,8 @@ Appointment Area CSS
 .ui-datepicker .ui-datepicker-prev:before {
   content: "\ea64";
   font-family: "remixicon";
+  font-display:swap;
+
 }
 
 .ui-datepicker .ui-datepicker-prev:hover {
@@ -2777,6 +2791,8 @@ Appointment Area CSS
 .ui-datepicker .ui-datepicker-next:before {
   content: "\ea6e";
   font-family: "remixicon";
+  font-display:swap;
+
 }
 
 .ui-datepicker .ui-datepicker-next:hover {
@@ -3569,6 +3585,8 @@ Pricing Area CSS
 .single-pricing-table .price {
   font-size: 72px;
   font-family: var(--heading-font-family);
+  font-display:swap;
+
   font-weight: bold;
   text-align: center;
   margin-top: 15px;
@@ -3581,6 +3599,8 @@ Pricing Area CSS
   font-size: var(--font-size);
   color: var(--paragraph-color);
   font-family: var(--main-font-family);
+  font-display:swap;
+
   font-weight: 400;
   position: relative;
   right: 15px;
@@ -3708,6 +3728,8 @@ FAQ Area CSS
   font-family: 'remixicon';
   font-size: 20px;
   color: var(--main-color);
+  font-display:swap;
+
 }
 
 .faq-accordion .accordion-item .accordion-button.collapsed::before {
@@ -4886,6 +4908,8 @@ Career Area CSS
   border-width: unset;
   color: var(--paragraph-color);
   font-family: "remixicon";
+  font-display:swap;
+
 }
 
 .career-form-wrap .career-form .form-group .selectize-input > * {
@@ -5262,6 +5286,8 @@ Widget Sidebar CSS
   font-size: var(--font-size);
   font-weight: 500;
   font-family: var(--main-font-family);
+  font-display:swap;
+
 }
 
 .widget-area .widget_qyaa_posts_thumb .item .info .title a {
