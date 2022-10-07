@@ -3858,7 +3858,7 @@ Gallery Area CSS
 Page Banner Area CSS
 =================================================*/
 .page-banner-area {
-  background-image: url(../../assets/images/page-banner/banner-bg-1.jpg);
+  
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3882,19 +3882,15 @@ Page Banner Area CSS
 }
 
 .page-banner-area.item-bg-2 {
-  background-image: url(../../assets/images/page-banner/banner-bg-2.jpg);
 }
 
 .page-banner-area.item-bg-3 {
-  background-image: url(../../assets/images/page-banner/banner-bg-3.jpg);
 }
 
 .page-banner-area.item-bg-4 {
-  background-image: url(../../assets/images/page-banner/banner-bg-4.jpg);
 }
 
 .page-banner-area.item-bg-5 {
-  background-image: url(../../assets/images/page-banner/banner-bg-5.jpg);
 }
 
 .page-banner-content {
