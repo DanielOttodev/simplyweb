@@ -1485,12 +1485,12 @@ Services Area CSS
   color: var(--white-color);
 }
 
-.single-services-card.bg-image {
+.single-services-card. {
   position: relative;
   z-index: 1;
 }
 
-.single-services-card.bg-image::before {
+.single-services-card.::before {
   content: '';
   position: absolute;
   z-index: -1;
@@ -1508,7 +1508,7 @@ Services Area CSS
   opacity: 0;
 }
 
-.single-services-card.bg-image::after {
+.single-services-card.::after {
   content: '';
   position: absolute;
   z-index: -1;
@@ -1523,12 +1523,12 @@ Services Area CSS
   opacity: 0;
 }
 
-.single-services-card.bg-image:hover::before {
+.single-services-card.:hover::before {
   height: 100%;
   opacity: 1;
 }
 
-.single-services-card.bg-image:hover::after {
+.single-services-card.:hover::after {
   height: 100%;
   opacity: 0.8;
 }
@@ -2477,7 +2477,7 @@ Team Area CSS
 /*================================================
 Appointment Area CSS
 =================================================*/
-.appointment-area-with-bg-image {
+.appointment-area-with- {
   background-image: url(../../assets/images/appointment/bg-1.jpg);
   background-position: center center;
   background-size: cover;
@@ -2487,7 +2487,7 @@ Appointment Area CSS
   background-attachment: fixed;
 }
 
-.appointment-area-with-bg-image::before {
+.appointment-area-with-::before {
   content: '';
   position: absolute;
   top: 0;
@@ -2498,7 +2498,7 @@ Appointment Area CSS
   height: 70px;
 }
 
-.appointment-area-with-bg-image::after {
+.appointment-area-with-::after {
   content: '';
   position: absolute;
   bottom: 0;

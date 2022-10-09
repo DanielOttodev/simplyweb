@@ -343,14 +343,14 @@
   .technology-image-wrap .image-shape-1 {
     display: none;
   }
-  .appointment-area-with-bg-image {
+  .appointment-area-with- {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .appointment-area-with-bg-image::before {
+  .appointment-area-with-::before {
     display: none;
   }
-  .appointment-area-with-bg-image::after {
+  .appointment-area-with-::after {
     display: none;
   }
   .appointment-form-wrap {
@@ -776,14 +776,14 @@
   .technology-image-wrap {
     margin-bottom: 30px;
   }
-  .appointment-area-with-bg-image {
+  .appointment-area-with- {
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  .appointment-area-with-bg-image::before {
+  .appointment-area-with-::before {
     display: none;
   }
-  .appointment-area-with-bg-image::after {
+  .appointment-area-with-::after {
     display: none;
   }
   .appointment-form-wrap {
