@@ -2103,26 +2103,39 @@ Case Studies Area CSS
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
+  background-size: cover;
+  border-radius: 25px;
 }
 
 .single-case-studies-box .case-image.bg-2 {
-  background-image: url(../../assets/images/case-studies/case-11.jpg);
+  background-image: url(../../assets/images/case-studies/ripple_cover.jpg);
+  background-size: cover;
+  border-radius: 25px;
+
 }
 
 .single-case-studies-box .case-image.bg-3 {
-  background-image: url(../../assets/images/case-studies/case-4.jpg);
+  background-image: url(../../assets/images/case-studies/enhanced_cover.jpg);
+  background-size: cover;
+  border-radius: 25px;
 }
 
 .single-case-studies-box .case-image.bg-4 {
-  background-image: url(../../assets/images/case-studies/case-1.jpg);
+  background-image: url(../../assets/images/case-studies/bentobros.png);
+  background-size: cover;
+  border-radius: 25px;
 }
 
 .single-case-studies-box .case-image.bg-5 {
-  background-image: url(../../assets/images/case-studies/case-2.jpg);
+  background-image: url(../../assets/images/case-studies/momentum.webp);
+  background-size: cover;
+  border-radius: 25px;
 }
 
 .single-case-studies-box .case-image.bg-6 {
   background-image: url(../../assets/images/case-studies/case-3.jpg);
+  background-size: cover;
+  border-radius: 25px;
 }
 
 .single-case-studies-box .case-content {
