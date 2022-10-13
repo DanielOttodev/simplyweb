@@ -5516,7 +5516,7 @@ Go Top CSS
 /*================================================
 Footer Area CSS
 =================================================*/
-.footer-area {
+#bg-image {
   background-image: url(../../assets/images/footer-bg.webp);
   background-position: center center;
   background-size: cover;
