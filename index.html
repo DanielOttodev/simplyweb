@@ -7,8 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Links of CSS files -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!----   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
+    <!-- IF BROWSER DOESN'T SUPPORT JAVASCRIPT THEN USE NORMAL LINK TAGS TO LOAD CSS -->
+    <noscript>
+        <link rel="stylesheet" type="text/css"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
+    </noscript>
+
+    <!-- LOAD CSS -->
+    <script type="text/javascript">
+        //<![CDATA[
+        (function () {
+            var css = document.createElement('link');
+            css.href = 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css';
+            css.rel = 'stylesheet';
+            css.type = 'text/css';
+            document.getElementsByTagName('head')[0].appendChild(css);
+        })();
+        //]]>
+    </script>
+
+
 
     <!---   <link rel="stylesheet" href="assets/css/bootstrap.min.css">  -->
     <link rel="stylesheet" href="assets/css/aos.css">
