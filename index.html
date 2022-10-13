@@ -13,20 +13,33 @@
     <noscript>
         <link rel="stylesheet" type="text/css"
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/remixicon.css">
+
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+
+
+
     </noscript>
 
     <!-- LOAD CSS -->
     <script type="text/javascript">
         //<![CDATA[
-        (function () {
-            var css = document.createElement('link');
-            css.href = 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css';
-            css.rel = 'stylesheet';
-            css.type = 'text/css';
-            document.getElementsByTagName('head')[0].appendChild(css);
-        })();
+        function lazycss(url) {
+            var css = document.createElement("link");
+            css.href = url;
+            css.rel = "stylesheet";
+            css.type = "text/css";
+            document.getElementsByTagName("head")[0].appendChild(css);
+        }
+        // LOAD CSS
+        lazycss("https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css");
+        lazycss("assets/css/style.css");
+        lazycss("assets/css/remixicon.css");
+        lazycss("assets/css/magnific-popup.min.css")
         //]]>
     </script>
+
 
 
 
@@ -35,15 +48,15 @@
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/meanmenu.css">
     <link rel="stylesheet" href="assets/css/remixicon.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <!----  <link rel="stylesheet" href="assets/css/flaticon.css">  -->
     <link rel="stylesheet" href="assets/css/odometer.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <!----  <link rel="stylesheet" href="assets/css/magnific-popup.min.css">  -->
     <link rel="stylesheet" href="assets/css/fancybox.min.css">
     <link rel="stylesheet" href="assets/css/selectize.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <!---- <link rel="stylesheet" href="assets/css/style.css"> -->
     <!----  <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/responsive.css">  -->
@@ -128,29 +141,6 @@
     </div>
     <!-- End Navbar Area -->
 
-    <!-- Search Overlay -->
-    <div class="search-overlay">
-        <div class="d-table">
-            <div class="d-table-cell">
-                <div class="search-overlay-layer"></div>
-                <div class="search-overlay-layer"></div>
-                <div class="search-overlay-layer"></div>
-
-                <div class="search-overlay-close">
-                    <span class="search-overlay-close-line"></span>
-                    <span class="search-overlay-close-line"></span>
-                </div>
-
-                <div class="search-overlay-form">
-                    <form>
-                        <input type="text" class="input-search" placeholder="Search here...">
-                        <button type="submit"><i class="ri-search-line"></i></button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Search Overlay -->
 
     <!-- Start Main Banner Area -->
     <div class="main-banner-area">
