@@ -29,6 +29,32 @@
     <title>Simply Web Solutions - Web Design for Small Business</title>
 
     <link rel="icon" type="image/png" href="assets/images/sw-icon.ico">
+    <!-- Meta Pixel Code -->
+    <script>
+        ! function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '632716241980473');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=632716241980473&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0CW3XE8XPM"></script>
@@ -322,7 +348,8 @@
 
                         <ul class="footer-widget-social">
                             <li><span>Follow us:</span></li>
-                            <li><a href="https://www.facebook.com/profile.php?id=100086491727282" target="_blank"><i class="ri-facebook-line"></i></a>
+                            <li><a href="https://www.facebook.com/profile.php?id=100086491727282" target="_blank"><i
+                                        class="ri-facebook-line"></i></a>
                             </li>
 
                         </ul>
