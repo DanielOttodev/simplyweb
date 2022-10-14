@@ -731,31 +731,38 @@
                             <h3>Contact Us</h3>
                         </div>
 
-                        <form data-netlify-recaptcha="true" class="appointment-form" name="Home_Contact"
+                        <form netlify-honeypot="bot-field" class="appointment-form" name="Home_Contact"
                             data-netlify="true">
-                            <div class="form-group">
-                                <input type="text" name="Name" class="form-control" placeholder="Enter your name">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="Email" class="form-control" placeholder="Email address">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="Phone" class="form-control" placeholder="Phone">
-                            </div>
-                            <div class="form-group">
-                                <select class="selectize-filter" value="New Form Submission!" name="Subject">
-                                    <option value="" disabled selected>Subject</option>
-                                    <option value="New Website">New Website</option>
-                                    <option value="Enquiry">Enquiry</option>
-                                    <option value="Other">Other</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <textarea name="message" style="color:white;" class="form-control"
-                                    placeholder="Write message..."></textarea>
-                            </div>
-                            <div class="mx-auto" data-netlify-recaptcha="true"></div>
-                            <button type="submit" class="default-btn">Submit</button>
+                            <p style="visibility:hidden">
+                                <label>
+                                    Don’t fill this out if you’re human: <input name="bot-field" />
+                                </label>
+                            </p>
+                            <p>
+                                <div class="form-group">
+
+                                    <input type="text" name="Name" class="form-control" placeholder="Enter your name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="Email" class="form-control" placeholder="Email address">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="Phone" class="form-control" placeholder="Phone">
+                                </div>
+                                <div class="form-group">
+                                    <select class="selectize-filter" value="New Form Submission!" name="Subject">
+                                        <option value="" disabled selected>Subject</option>
+                                        <option value="New Website">New Website</option>
+                                        <option value="Enquiry">Enquiry</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" style="color:white;" class="form-control"
+                                        placeholder="Write message..."></textarea>
+                                </div>
+                                <div class="mx-auto" data-netlify-recaptcha="true"></div>
+                                <button type="submit" class="default-btn">Submit</button>
                         </form>
                     </div>
                 </div>
